@@ -1,0 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  :root{
+    --color-BgColor: white;
+    --color-TextColor: black;
+    --color-BgBorder:grey;
+  }
+
+  :root[class='dark']{
+    --color-BgColor: #272727;
+    --color-TextColor: white;
+  }
